@@ -1,3 +1,5 @@
+package Exercicio1;
+
 public class Retangulo {
 
     public double Width;
