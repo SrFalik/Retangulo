@@ -2,12 +2,14 @@ package Prova;
 
 import java.util.Scanner;
 
-public class Main {
+public abstract class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double a = sc.nextDouble();
-        double b = sc.nextDouble();
+        double a, b;
         do {
+            System.out.println("DIGITE DOIS NÚMEROS:");
+            a = sc.nextDouble();
+            b = sc.nextDouble();
             System.out.println("ESCOLHA UMA OPERAÇÃO");
             System.out.println("1- Soma");
             System.out.println("2- Subtração");
