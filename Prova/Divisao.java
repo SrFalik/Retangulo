@@ -7,6 +7,6 @@ public class Divisao extends OperacaoMat{
     }
 
     public double Dividir() {
-        return a / b;
+        return super.getA() / super.getB();
     }
 }

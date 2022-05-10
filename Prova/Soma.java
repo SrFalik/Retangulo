@@ -6,6 +6,6 @@ public class Soma extends OperacaoMat{
     }
 
     public double Somar() {
-        return a + b;
+        return super.getA() + super.getB();
     }
 }

@@ -1,7 +1,7 @@
 package Prova;
 
-public class OperacaoMat {
-    protected Double a, b;
+public abstract class OperacaoMat {
+    private Double a, b;
 
     public OperacaoMat(Double a, Double b) {
         this.a = a;

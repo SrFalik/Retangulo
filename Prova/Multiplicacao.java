@@ -6,6 +6,6 @@ public class Multiplicacao extends  OperacaoMat{
     }
 
     public double Multiplicar() {
-        return a * b;
+        return super.getA() * super.getB();
     }
 }

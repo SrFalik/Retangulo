@@ -6,6 +6,6 @@ public class Subtracao extends OperacaoMat{
         super(a, b);
     }
     public double Subtrair() {
-        return a - b;
+        return super.getA() - super.getB();
     }
 }
